@@ -17,7 +17,7 @@ hzc8492/stitching latest   2100c271d936
 ```
 You can pull the image if needed or rebuild it locally for modifications.
 
-### 2. Build and Run the Docker Container (If Image Not Found)
+### 2. Build the Docker Container (If Image Not Found)
 To set up the project, follow these steps:
 
 - Create a `.env` File \
@@ -36,12 +36,12 @@ My `.env` File could be found in DeepDish with the path:
 docker build -t hzc8492/stitching .
 ```
 
+### 3. Run the Docker Container and unit_test script
 - Run the Docker Container
 ```bash
 docker run -it hzc8492/stitching /bin/bash
 ```
-
-### 3. Run the unit_test script
+- Run the unit_test script
 ```bash
 python3 unit_test_stitching.py
 ```
