@@ -13,7 +13,7 @@ docker images
 This should display the repository:
 ```bash
 REPOSITORY        TAG       IMAGE ID
-hzc8492/stitching latest   2100c271d936
+hzc8492/stitching latest   8630404e9c0f
 ```
 You can pull the image if needed or rebuild it locally for modifications.
 
@@ -51,7 +51,7 @@ Example Usage:
 ```bash
 python3 interface.py "What are the most common complaints about Blinkit?"
 ```
-- Argument: "What are the most common complaints about Blinkit" (query)
+Argument: "What are the most common complaints about Blinkit" (query)
 
 
 - Run the unit_test script
@@ -59,10 +59,10 @@ python3 interface.py "What are the most common complaints about Blinkit?"
 python3 unit_test_stitching.py
 ```
 
-Example Usage (Input): 
-- Query 1: "What is the best advantage about Blinkit?"
-- Query 2: "Why do customers complain about Zepto’s customer support?"
-- Query 3: "What is a major frustration for Jiomart customers regarding orders?"
+Example Usage (Input): \
+Query 1: "What is the best advantage about Blinkit?" \
+Query 2: "Why do customers complain about Zepto’s customer support?" \
+Query 3: "What is a major frustration for Jiomart customers regarding orders?"
 
 ## Expected Output
 See `Stitching.ipynb` **Unit Test**
