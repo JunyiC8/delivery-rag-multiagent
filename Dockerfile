@@ -39,6 +39,7 @@ RUN pip install --no-cache-dir \
 # Copy Jupyter Notebook files
 COPY Stitching.ipynb /app/
 COPY unit_test_stitching.py /app/
+COPY interface.py /app/
 COPY lora_fine_tuned /app/lora_fine_tuned
 COPY .env /app/
 
