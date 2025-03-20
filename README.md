@@ -66,5 +66,5 @@ Query 2: "Why do customers complain about Zepto’s customer support?" \
 Query 3: "What is a major frustration for Jiomart customers regarding orders?"
 
 ## Expected Output
-See `Stitching.ipynb` **Unit Test**
-(Qualitatively Evaluations are shown in `Stitching.ipynb` with markdown format.)
+See `Stitching.ipynb` **3.Build front-end, 5. Unit Test** \
+(Qualitatively Evaluations are shown in **4. Evaluate performance of Advanced RAG system** with markdown format.)
