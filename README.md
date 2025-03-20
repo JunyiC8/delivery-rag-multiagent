@@ -36,11 +36,24 @@ My `.env` File could be found in DeepDish with the path:
 docker build -t hzc8492/stitching .
 ```
 
-### 3. Run the Docker Container and unit_test script
+### 3. Run the Docker Container, interface, and unit_test script
 - Run the Docker Container
 ```bash
 docker run -it hzc8492/stitching /bin/bash
 ```
+
+- Run the interface script
+```bash
+python3 interface.py <query>
+```
+
+Example Usage: 
+```bash
+python3 interface.py "What are the most common complaints about Blinkit?"
+```
+- Argument: "What are the most common complaints about Blinkit" (query)
+
+
 - Run the unit_test script
 ```bash
 python3 unit_test_stitching.py
