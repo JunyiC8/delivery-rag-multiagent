@@ -14,11 +14,6 @@ OPENAI_API_KEY=your-api-key-here
 PINECONE_API_KEY=my-api-key-here
 ```
 
-My `.env` File could be found in DeepDish with the path which contains **OpenAI API Key** and **PINECONE_API_KEY**:
-```bash
-/nfs/home/hzc8492/Genai/.env
-```
-
 - Build the Docker Image
 ```bash
 docker build -t stitching .
