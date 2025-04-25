@@ -4,20 +4,7 @@
 This project implements an advanced RAG workflow utilizing agentic AI. The system incorporates multiple LLM-based agents to handle queries, with at least one agent utilizing a LoRA fine-tuned model. The goal is to enhance retrieval-augmented generation (RAG) performance by combining different levels of model capabilities.
 
 ## Setup Instructions
-### 1. Accessing Docker Images on DeepDish
-The pre-built Docker image is available on DeepDish:
-```bash
-docker images
-```
-
-This should display the repository:
-```bash
-REPOSITORY        TAG       IMAGE ID
-hzc8492/stitching latest   8630404e9c0f
-```
-You can pull the image if needed or rebuild it locally for modifications.
-
-### 2. Build the Docker Container (If Image Not Found)
+### 1. Build the Docker Container
 To set up the project, follow these steps:
 
 - Create a `.env` File \
@@ -34,13 +21,13 @@ My `.env` File could be found in DeepDish with the path which contains **OpenAI 
 
 - Build the Docker Image
 ```bash
-docker build -t hzc8492/stitching .
+docker build -t stitching .
 ```
 
-### 3. Run the Docker Container, interface, and unit_test script
+### 2. Run the Docker Container, interface, and unit_test script
 - Run the Docker Container
 ```bash
-docker run -it hzc8492/stitching /bin/bash
+docker run -it stitching /bin/bash
 ```
 
 - Run the interface script
